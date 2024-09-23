@@ -15,6 +15,11 @@ The following packages are required for `ConTextMining`.
 - `flash_attn`
 - `accelerate`
 
+To install these packages, you can do the following:
+
+```bash
+pip install torch transformers tokenizers huggingface-hub flash_attn accelerate
+```
 
 ### GPU requirements
 You require at least one GPU to use `ConTextMining`.  
@@ -41,7 +46,7 @@ Here we provide a quick example on how you can execute `ConTextMining` to conven
 from ConTextMining import get_topic_labels
 
 # specify your huggingface access token. To learn how to obtain one, refer to huggingface.co/docs/hub/en/security-tokens
-hf_access_token="<your huggingface access token>. 
+hf_access_token="<your huggingface access token>" 
 
 # specify the huggingface model id. Choose between "microsoft/Phi-3-mini-4k-instruct", "meta-llama/Meta-Llama-3.1-8B-Instruct" or "google/gemma-2-2b-it"
 model_id="meta-llama/Meta-Llama-3.1-8B-Instruct"
