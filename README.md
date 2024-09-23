@@ -91,7 +91,7 @@ ConTextMining.get_topic_labels(*, topic_modeling_keywords, labels_examples,keywo
 - `keywords_examples` (list, required): list-of-string(s) containing topic modeling keywords which serves as training examples for few-shot learning.  
 - `labels_examples` (list, required): list-of-string(s) containing the labels CORRESPONDING TO THE INDEX of the keywords of `keyword_examples` above.   
 - `model_id` (str, required): huggingface model_id of choice. For now, its a choice between ["microsoft/Phi-3-mini-4k-instruct", "meta-llama/Meta-Llama-3.1-8B-Instruct", "google/gemma-2-2b-it"]. Defaults to "google/gemma-2-2b-it".  
-- access_token (str, required): str of huggingface access token. To learn how to obtain one, refer to huggingface.co/docs/hub/en/security-tokens  
+- access_token (str, required): str of huggingface access token. To learn how to obtain one, refer to [huggingface.co/docs/hub/en/security-tokens](https://huggingface.co/docs/hub/en/security-tokens)
 
 
 ## Citation
