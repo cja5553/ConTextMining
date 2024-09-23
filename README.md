@@ -26,7 +26,7 @@ You require at least one GPU to use `ConTextMining`.
 VRAM requirements depend on factors like number of keywords or topics used to topic labels you wish to generate.  
 However, at least 8GB of VRAM is recommended
 
-### huggingface API key  
+### huggingface access token
 You will need a huggingface access token. To obtain one:  
 1. you'd first need to create a [huggingface](https://huggingface.co) account if you do not have one. 
 2. Create and store a new access token. To learn more, please refer to [huggingface.co/docs/hub/en/security-tokens](https://huggingface.co/docs/hub/en/security-tokens).  
@@ -77,7 +77,7 @@ Topic 4: [mango, strawberry, vanilla, banana, peanut],
 Topic 5: [fish, roll, salmon, fresh, good]'''
 
 
-print(get_topic_labels(topic_modeling_keywords, keywords_examples, labels_examples, model_id, hf_access_token))
+print(get_topic_labels(topic_modeling_keywords=topic_modeling_keywords, keywords_examples=keywords_examples, labels_examples=labels_examples, model_id=model_id, access_token=hf_access_token))
 ```
 You will now get the interpretable topic model labels for all 5 topics! 
 
