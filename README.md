@@ -1,7 +1,7 @@
 `ConTextMining` is a package generate interpretable topics labels from the keywords of topic models (e.g, `LDA`, `BERTopic`) through few-shot in-context learning. 
 
 
-[![pypi package](https://img.shields.io/badge/pypi_package-v0.0.1-brightgreen)](https://pypi.org/project/ConTextMining/) [![GitHub Source Code](https://img.shields.io/badge/github_source_code-source_code?logo=github&color=green)](https://github.com/cja5553/ConTextMining) 
+[![pypi package](https://img.shields.io/badge/pypi_package-v0.0.2-brightgreen)](https://pypi.org/project/ConTextMining/) [![GitHub Source Code](https://img.shields.io/badge/github_source_code-source_code?logo=github&color=green)](https://github.com/cja5553/ConTextMining) 
 
 
 ## Requirements  
@@ -95,7 +95,7 @@ ConTextMining.get_topic_labels(*, topic_modeling_keywords, labels_examples,keywo
 
 
 ## Citation
-C Alba "ConText Mining: Complementing topic models with few-shot in-context learning to generate interpretable topics" Working paper. 
+C Alba "ConText Mining: Complementing topic models with few-shot in-context learning to generate interpretable topics" Forthcoming at IEEE Symposium Series on Computational Intelligence. 
 
 ## Questions?
 
