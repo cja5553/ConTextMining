@@ -1,7 +1,7 @@
 `ConTextMining` is a package generate interpretable topics labels from the keywords of topic models (e.g, `LDA`, `BERTopic`) through few-shot in-context learning. 
 
 
-[![pypi package](https://img.shields.io/badge/pypi_package-v0.0.2-brightgreen)](https://pypi.org/project/ConTextMining/) [![GitHub Source Code](https://img.shields.io/badge/github_source_code-source_code?logo=github&color=green)](https://github.com/cja5553/ConTextMining) 
+[![pypi package](https://img.shields.io/badge/pypi_package-v0.0.6-brightgreen)](https://pypi.org/project/ConTextMining/) [![GitHub Source Code](https://img.shields.io/badge/github_source_code-source_code?logo=github&color=green)](https://github.com/cja5553/ConTextMining) [![Colab Example](https://img.shields.io/badge/-Colab_Example-grey?logo=google&logoColor=F9AB00)](https://colab.research.google.com/drive/15SX9zUtAKxMyzseWnZwwxtlxHNjPxQpn?usp=sharing)
 
 
 ## Requirements  
@@ -12,7 +12,6 @@ The following packages are required for `ConTextMining`.
 - `transformers`
 - `tokenizers`
 - `huggingface-hub`
-- `flash_attn`
 - `accelerate`
 
 To install these packages, you can do the following:
